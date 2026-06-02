@@ -1,0 +1,18 @@
+Pregunta 9 — Reflexión de la semana:
+¿Cómo podrían las APIs ayudar a que las comunidades compartan información,
+reportes o alertas de manera organizada?
+
+Las APIs son herramientas poderosas que pueden transformar la forma en que las
+comunidades gestionan y comparten información. A través de una API, diferentes
+aplicaciones y dispositivos pueden comunicarse entre sí de manera estructurada,
+lo que permite que los ciudadanos reporten situaciones desde sus teléfonos y
+que esa información llegue de forma ordenada a quienes deben atenderla. Por
+ejemplo, una comunidad podría tener una aplicación donde los vecinos reporten
+cortes de agua, problemas de seguridad o emergencias, y la API se encargaría
+de centralizar esos reportes para que las autoridades o líderes comunitarios
+puedan consultarlos en tiempo real. Además, las APIs permiten integrar distintos
+sistemas, como mapas, alertas por correo o notificaciones, haciendo que la
+información fluya de manera eficiente. En contextos de paz y convivencia, esto
+es especialmente valioso porque empodera a las comunidades para organizarse,
+hacerse visibles y gestionar sus propios problemas con herramientas tecnológicas
+que antes solo estaban al alcance de grandes instituciones.
