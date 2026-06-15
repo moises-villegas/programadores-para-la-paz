@@ -1,0 +1,43 @@
+Prueba de las rutas GET y POST /reportes — Semana 7
+
+--- PASO 1: Registrar un reporte con POST ---
+
+Se envió una petición POST a: http://localhost:3000/reportes
+Con el siguiente JSON:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor respondió:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+--- PASO 2: Consultar reportes con GET ---
+
+Se envió una petición GET a: http://localhost:3000/reportes
+
+El servidor respondió con la lista de reportes registrados:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+--- ¿Qué sucede al consultar los reportes? ---
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve todos los reportes
+que han sido registrados hasta ese momento en el array "reportes". Si no se ha
+registrado ningún reporte, la respuesta es una lista vacía []. Cada vez que se
+registra un nuevo reporte con POST, este queda guardado en memoria y aparece
+en la respuesta del GET. Es importante tener en cuenta que si el servidor se
+reinicia, la lista vuelve a estar vacía porque los datos se guardan en memoria
+y no en una base de datos permanente.

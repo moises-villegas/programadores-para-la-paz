@@ -1,0 +1,25 @@
+Ejemplos de reportes ciudadanos — Semana 7
+
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público en la calle principal del barrio."
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos sólidos en la esquina del parque comunitario."
+}
+
+Ejemplo 3 (adicional):
+{
+  "tipo": "Seguridad",
+  "descripcion": "Presencia de huecos profundos en la vía de acceso al colegio que representan peligro para los niños."
+}
+
+Ejemplo 4 (adicional):
+{
+  "tipo": "Agua potable",
+  "descripcion": "Fuga de agua en la tubería principal de la carrera 5 con calle 8, lleva más de una semana sin atención."
+}
