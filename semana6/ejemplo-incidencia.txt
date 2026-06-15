@@ -1,0 +1,34 @@
+Ejemplo de JSON para reportar una incidencia comunitaria — Semana 6
+
+Un ciudadano podría enviar la siguiente petición POST a:
+http://localhost:3000/incidencia
+
+Con este JSON en el cuerpo de la solicitud:
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+El servidor respondería con:
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Otros ejemplos de incidencias que una comunidad podría reportar:
+
+{
+  "tipo": "Seguridad",
+  "descripcion": "Se reporta presencia de personas sospechosas en el parque principal durante las noches."
+}
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Un hueco en la vía principal de la vereda lleva más de dos semanas sin ser reparado."
+}
+
+{
+  "tipo": "Agua potable",
+  "descripcion": "El suministro de agua lleva tres días interrumpido en el sector norte del barrio."
+}

@@ -1,0 +1,25 @@
+Prueba de la ruta POST /registro — Semana 6
+
+Para probar la ruta se envió una petición POST a:
+http://localhost:3000/registro
+
+Con el siguiente JSON en el cuerpo de la solicitud:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor respondió con el siguiente JSON:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+El servidor recibió los datos enviados en el cuerpo de la petición (req.body),
+extrajo el campo "nombre" y el campo "mensaje", y los devolvió dentro de un
+objeto JSON como confirmación de que los datos llegaron correctamente.
+Esto demuestra cómo Express puede leer información enviada por el usuario
+gracias al middleware express.json(), que interpreta el cuerpo de la solicitud
+en formato JSON y lo deja disponible en req.body.
