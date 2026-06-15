@@ -1,0 +1,26 @@
+Registro de ejecución del servidor — Semana 9
+
+--- ¿Qué ocurre cuando se ejecuta node server.js? ---
+Al ejecutar el comando "node server.js" en la terminal, Node.js inicia el proceso
+y carga el archivo server.js. Express configura las rutas definidas y pone el
+servidor en modo de escucha activa, listo para recibir solicitudes entrantes.
+
+--- ¿Qué mensaje aparece en la terminal? ---
+En la terminal aparece el siguiente mensaje:
+"Servidor ejecutándose en puerto 3000"
+Este mensaje es generado por el callback dentro de app.listen(3000, ...) y confirma
+que el servidor arrancó correctamente y está escuchando en el puerto 3000.
+
+--- ¿Qué sucede cuando se visita http://localhost:3000? ---
+El navegador envía una solicitud GET a la ruta "/". El servidor recibe la solicitud
+y responde con el texto plano: "Servidor activo y funcionando".
+
+--- ¿Qué sucede cuando se visita http://localhost:3000/estado? ---
+El navegador envía una solicitud GET a la ruta "/estado". El servidor responde
+con el siguiente objeto JSON:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
+Esto confirma que el servidor está activo y que la ruta /estado funciona correctamente
+para verificar el estado del servicio en cualquier momento.
