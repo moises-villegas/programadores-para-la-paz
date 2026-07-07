@@ -1,0 +1,26 @@
+Descripción de la interfaz básica — Semana 11
+
+La interfaz de la plataforma comunitaria estaría organizada en secciones claras
+y de fácil acceso para cualquier ciudadano, sin necesidad de conocimientos técnicos.
+
+Sección 1 — Formulario para crear un reporte:
+Habría un formulario con campos para ingresar el título del reporte, el tipo de
+incidencia (infraestructura, ambiente, seguridad, etc.), una descripción detallada
+y la fecha. Al enviarlo, el sistema confirmaría que el reporte fue recibido.
+
+Sección 2 — Lista de reportes disponibles:
+Se mostraría una lista con todos los reportes registrados, indicando el tipo,
+la fecha y el estado actual (pendiente, en proceso, resuelto). Esto permitiría
+que cualquier ciudadano vea qué situaciones han sido reportadas.
+
+Sección 3 — Botón de apoyo y contador:
+Cada reporte tendría un botón que permitiría a otros ciudadanos expresar su
+respaldo al caso, junto con un contador visible que mostraría cuántas personas
+han apoyado esa incidencia. Esto ayudaría a priorizar los casos más urgentes.
+
+Sección 4 — Panel de coordinador (acceso protegido):
+Los coordinadores tendrían acceso a un panel adicional donde podrían actualizar
+el estado de los reportes y dejar comentarios de seguimiento.
+
+La interfaz no debe mostrar información personal de los usuarios bajo ninguna
+circunstancia, manteniendo la privacidad como principio fundamental.

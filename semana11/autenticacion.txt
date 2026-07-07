@@ -1,0 +1,17 @@
+Explicación sobre autenticación — Semana 11
+
+El login es el proceso mediante el cual un usuario demuestra que es quien dice
+ser, generalmente ingresando un correo y una contraseña. La aplicación verifica
+esos datos contra los registrados en la base de datos y, si coinciden, le permite
+continuar dentro del sistema con los permisos que le corresponden según su rol.
+
+Algunas rutas deben estar protegidas porque contienen información que no debería
+estar disponible para cualquier persona que acceda a la aplicación. Por ejemplo,
+la ruta que permite ver todos los reportes, modificar su estado o acceder a datos
+de los usuarios debe requerir que la persona esté identificada y tenga autorización.
+
+La información que nunca debería exponerse públicamente incluye: contraseñas,
+documentos de identidad, números de teléfono, direcciones físicas, tokens de
+sesión, claves de API y cualquier otro dato personal de los miembros de la
+comunidad. Proteger esta información es una responsabilidad ética y técnica
+fundamental en cualquier plataforma ciudadana.

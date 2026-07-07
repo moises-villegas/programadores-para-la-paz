@@ -1,0 +1,48 @@
+Modelo de datos para plataforma comunitaria — Semana 11
+
+Entidad: Reporte
+
+Campos principales:
+- id
+- titulo
+- tipo
+- descripcion
+- fecha_registro
+- estado
+
+Propósito:
+Almacenar los reportes o incidencias enviados por los ciudadanos, incluyendo
+el tipo de problema, su descripción y el estado actual de atención. Esta
+entidad es el núcleo de la plataforma.
+
+
+Entidad: Usuario
+
+Campos principales:
+- id
+- nombre_usuario
+- correo
+- contrasena_cifrada
+- rol
+- fecha_registro
+
+Propósito:
+Guardar la información básica de las personas registradas en la plataforma,
+diferenciando entre ciudadanos y coordinadores. La contraseña debe almacenarse
+siempre de forma cifrada, nunca en texto plano.
+
+
+Entidad: Seguimiento
+
+Campos principales:
+- id
+- reporte_id
+- coordinador_id
+- comentario
+- fecha
+- estado_nuevo
+
+Propósito:
+Registrar las actualizaciones realizadas sobre cada reporte, permitiendo
+que la comunidad vea el avance de cada caso y que quede constancia de
+quién lo atendió y cuándo.

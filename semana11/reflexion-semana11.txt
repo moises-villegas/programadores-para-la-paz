@@ -1,0 +1,19 @@
+Reflexión de la semana 11:
+¿Por qué una plataforma tecnológica que promueve participación ciudadana debe
+tener base de datos, autenticación de usuarios y protección de información?
+
+Una plataforma de participación ciudadana que no cuente con estas tres condiciones
+difícilmente puede funcionar de manera responsable a largo plazo. La base de
+datos es necesaria porque permite que la información persista: sin ella, cada
+reporte o registro desaparecería al apagar el servidor, haciendo imposible el
+seguimiento de los casos. La autenticación de usuarios es fundamental para
+garantizar que solo las personas autorizadas puedan realizar ciertas acciones,
+como modificar el estado de un reporte o acceder a información interna del
+sistema. Sin autenticación, cualquier persona podría alterar o borrar datos de
+otros, lo que destruiría la confianza en la plataforma. La protección de
+información, por su parte, no es solo un requisito técnico sino una obligación
+ética: los ciudadanos que reportan incidencias o participan en procesos comunitarios
+confían en que sus datos no serán expuestos ni usados en su contra. Una plataforma
+que falla en este aspecto puede causar daños reales a personas reales. En conjunto,
+estos tres elementos convierten una aplicación básica en un servicio confiable,
+seguro y digno de la confianza de la comunidad que lo usa.
