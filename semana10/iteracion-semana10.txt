@@ -1,0 +1,23 @@
+Planificación de la primera iteración — Semana 10
+
+¿Qué 2 tareas del backlog haría primero?
+
+Tarea 1: Permitir que un ciudadano registre una incidencia.
+Tarea 2: Enviar una alerta a Telegram cuando llegue un nuevo reporte.
+
+¿Por qué son las más importantes?
+
+La primera tarea es el corazón de la plataforma: sin la posibilidad de registrar
+incidencias, el sistema no tiene sentido ni función. Es el punto de partida de
+todo el flujo. La segunda tarea es importante porque cierra el ciclo de
+comunicación: no basta con que el reporte quede guardado, también es necesario
+que alguien sea notificado para poder darle respuesta a tiempo.
+
+¿Qué significa que una tarea esté "terminada"?
+
+Definición de terminado (Definition of Done):
+1. La funcionalidad fue desarrollada y responde correctamente a las pruebas básicas.
+2. El código fue guardado con un commit descriptivo en el repositorio de GitHub.
+3. La ruta o función fue probada manualmente y devuelve el resultado esperado.
+4. No expone datos sensibles ni genera errores visibles para el usuario.
+5. Quedó documentada brevemente para que otro miembro del equipo pueda entenderla.

@@ -1,0 +1,26 @@
+Diseño de automatización con n8n y Telegram — Semana 10
+
+Descripción del flujo:
+Se propone un flujo simple que conecta el sistema de reportes con un canal de
+Telegram para notificar al equipo cuando llegue información nueva.
+
+¿Qué evento activa el flujo?
+El flujo se activa cuando un ciudadano registra un nuevo reporte a través de la
+ruta POST /reportes del servidor. n8n detecta este evento mediante un webhook
+o una consulta periódica a la API.
+
+¿Qué mensaje se enviaría a Telegram?
+El mensaje enviado sería algo así:
+"Nuevo reporte registrado en el sistema. Tipo: Infraestructura. Por favor revisa
+el panel para ver los detalles y dar seguimiento."
+
+¿Qué información NO debería enviarse por seguridad?
+- Nombres completos de los ciudadanos que reportaron.
+- Números de documento o identificación.
+- Direcciones exactas o datos de ubicación precisa.
+- Números de teléfono o correos electrónicos.
+- Tokens de autenticación o claves de API.
+- Contraseñas o credenciales de acceso al sistema.
+
+La automatización debe limitarse a notificaciones generales que indiquen que
+hay actividad nueva, sin exponer ningún dato personal de los usuarios.

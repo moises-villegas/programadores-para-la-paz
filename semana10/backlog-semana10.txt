@@ -1,0 +1,23 @@
+Backlog del proyecto — Semana 10
+(Ordenado de mayor a menor prioridad)
+
+Historia 1 (Prioridad alta):
+Como ciudadano quiero registrar una incidencia desde mi celular para dejar
+evidencia del problema y que quede documentado con fecha y descripción.
+
+Historia 2 (Prioridad alta):
+Como coordinador quiero recibir una alerta en Telegram cuando llegue un nuevo
+reporte para poder revisar el caso oportunamente sin tener que estar pendiente
+del sistema todo el tiempo.
+
+Historia 3 (Prioridad media):
+Como miembro del equipo quiero consultar la lista de reportes registrados para
+hacer seguimiento y verificar cuáles han sido atendidos y cuáles siguen pendientes.
+
+Historia 4 (Prioridad media):
+Como líder comunitario quiero filtrar los reportes por tipo de incidencia para
+identificar cuáles son los problemas más frecuentes en la zona.
+
+Historia 5 (Prioridad baja):
+Como usuario quiero recibir una confirmación al registrar un reporte para saber
+que mi información fue recibida correctamente por el sistema.
