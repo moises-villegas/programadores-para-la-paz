@@ -1,0 +1,22 @@
+Flujo del sistema "Petición en 3 Clics":
+
+Paso 1: Un ciudadano accede a la plataforma y llena un formulario con el título
+y la descripción de la causa comunitaria que desea impulsar o visibilizar.
+
+Paso 2: Al enviar el formulario, el sistema registra la causa en la base de datos
+asignándole un identificador único, la fecha de creación y un contador de apoyos en cero.
+
+Paso 3: La causa queda visible en la plataforma para que otros ciudadanos puedan
+leerla y decidir si desean respaldarla haciendo clic en el botón de apoyo.
+
+Paso 4: Cada vez que alguien apoya una causa el sistema registra ese apoyo y
+actualiza el contador que es visible para todos los visitantes de la plataforma.
+
+Paso 5: Cuando la causa acumula suficientes apoyos el sistema genera de forma
+automática un documento PDF con los datos de la causa y el total de apoyos recibidos.
+
+Paso 6: El creador de la causa puede descargar el PDF generado y utilizarlo como
+evidencia formal del respaldo ciudadano para presentarlo ante autoridades o medios.
+
+Paso 7: n8n detecta la generación del documento y envía una notificación a Telegram
+informando al equipo coordinador que una nueva petición formal está lista para entrega.

@@ -1,0 +1,24 @@
+Automatización del sistema con n8n y Telegram:
+
+Evento que activa la automatización:
+Un ciudadano registra una nueva causa en la plataforma completando el formulario
+y enviando los datos mediante una petición POST a la API del servidor.
+
+Mensaje que se envía a Telegram:
+"Se registró una nueva causa en la plataforma Petición en 3 Clics. Ingresar al
+sistema para revisar el contenido y hacer el seguimiento correspondiente."
+
+Segunda automatización - generación del PDF:
+Evento: la causa alcanza el mínimo de apoyos requeridos y el sistema genera el PDF.
+Mensaje: "Una nueva petición formal fue generada. El documento está disponible
+para descarga y puede ser presentado ante las autoridades competentes."
+
+Información que NO debe enviarse por seguridad:
+- Nombres completos o apodos identificables de los ciudadanos
+- Números de documento de identidad o cédula
+- Números de teléfono o direcciones de correo electrónico
+- Ubicaciones exactas o direcciones físicas de los participantes
+- Tokens, claves de API o credenciales del sistema
+- Contraseñas o datos de sesión de los usuarios
+- Archivos de configuración como .env
+- Cualquier dato que permita identificar o poner en riesgo a un ciudadano

@@ -1,0 +1,15 @@
+Este curso me permitió entender que la tecnología es mucho más que saber escribir
+código, es una forma de resolver problemas reales y de darle voz a comunidades que
+muchas veces no tienen los medios para hacerse escuchar. Desde los primeros temas
+sobre ciudadanía digital aprendí que el uso responsable de la información en internet
+es fundamental para construir una sociedad más justa e informada. Con Node.js y
+Express comprendí cómo funciona un servidor web y cómo puede recibir y responder
+peticiones de los usuarios de forma organizada. El manejo de arrays y bases de datos
+me mostró cómo se almacena y consulta la información en una aplicación real, y la
+autenticación me enseñó la importancia de proteger los accesos para cuidar la
+privacidad de las personas. Herramientas como Git me demostraron que el orden y la
+trazabilidad son valores tanto del buen programador como del buen ciudadano. Finalmente
+la integración de n8n y Telegram mostró que automatizar procesos puede hacer más
+eficiente la comunicación comunitaria sin grandes recursos económicos. Termino este
+curso convencido de que la tecnología bien usada puede ser una herramienta de
+transformación social al alcance de cualquier persona que se lo proponga.
