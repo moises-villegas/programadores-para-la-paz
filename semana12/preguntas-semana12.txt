@@ -1,0 +1,16 @@
+Pregunta 1:
+Respuesta: B
+"Petición en 3 Clics" es una herramienta sencilla que permite a los ciudadanos registrar apoyos a una causa comunitaria y generar automáticamente una petición formal.
+ 
+Pregunta 2:
+Respuesta: B
+Generar un PDF automáticamente permite transformar la información registrada en la plataforma en un documento formal que puede entregarse a instituciones o autoridades.
+ 
+Pregunta 3:
+Respuesta: A
+Minimizar los datos personales es importante para evitar almacenar información innecesaria o sensible que pueda comprometer la privacidad de los ciudadanos.
+ 
+Pregunta 4:
+Respuesta: A
+n8n y Telegram permiten enviar notificaciones automáticas al equipo cuando ocurre un evento importante en el sistema, como un nuevo registro o una petición generada.
+ 
